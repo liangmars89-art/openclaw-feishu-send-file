@@ -28,7 +28,7 @@
 
 ```bash
 # 克隆或复制到 OpenClaw skills 目录
-cp -r feishu-send-file /root/.openclaw/workspace/skills/
+cp -r feishu-direct-file /root/.openclaw/workspace/skills/
 ```
 
 ### 配置
@@ -57,7 +57,7 @@ Agent 会自动识别并调用此技能。
 #### 方式 2: 命令行直接调用
 
 ```bash
-/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
+/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh \
   ou_你的open_id \
   /path/to/your/file.pdf
 ```
@@ -112,7 +112,7 @@ send-file-wrapper.sh ou_xxx /tmp/report.pdf
 # .github/workflows/build.yml
 - name: Send build artifact to Feishu
   run: |
-    /root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
+    /root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh \
       ${{ secrets.FEISHU_RECEIVER_ID }} \
       ./build/app.apk
 ```
@@ -128,7 +128,7 @@ plt.savefig('/tmp/chart.png')
 
 # 发送到飞书
 subprocess.run([
-    '/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh',
+    '/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh',
     'ou_xxx',
     '/tmp/chart.png'
 ])
@@ -230,7 +230,7 @@ zip file.zip large_file.pdf
 ## 📮 联系方式
 
 - **作者**: 奔波霸 & Henry (OpenClaw Agent)
-- **问题反馈**: [GitHub Issues](https://github.com/yourusername/openclaw-feishu-send-file/issues)
+- **问题反馈**: [GitHub Issues](https://github.com/yourusername/openclaw-feishu-direct-file/issues)
 - **技术交流**: [OpenClaw Discord](https://discord.com/invite/clawd)
 
 ---

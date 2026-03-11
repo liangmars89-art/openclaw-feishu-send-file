@@ -1,7 +1,7 @@
 # Feishu Send File Skill
 
 > **Skill Metadata**
-> - Name: `feishu-send-file`
+> - Name: `feishu-direct-file`
 > - Version: `1.0.0`
 > - Author: Henry
 > - Tags: feishu, file-transfer, messaging
@@ -28,7 +28,7 @@
 
 ```bash
 # 发送文件给奔波霸(默认)
-/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
+/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh \
   ou_0765c32b5ec622535c5ccc284982cfe5 \
   /path/to/file.pdf
 ```
@@ -37,7 +37,7 @@
 
 ```bash
 # 第一个参数是接收者的 open_id
-/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
+/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh \
   ou_xxxxxx \
   /path/to/file.svg
 ```
@@ -47,7 +47,7 @@
 所有 OpenClaw agent 都可以执行这个脚本:
 
 ```bash
-exec /root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
+exec /root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh \
   ou_0765c32b5ec622535c5ccc284982cfe5 \
   /path/to/generated/report.pdf
 ```
@@ -61,7 +61,7 @@ exec /root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
 
 1. 生成/准备好文件
 2. 调用:
-   exec /root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
+   exec /root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh \
      ou_0765c32b5ec622535c5ccc284982cfe5 \
      <文件路径>
 3. 告知用户文件已发送
@@ -86,12 +86,12 @@ exec /root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
 
 ```bash
 # 发送研究路线图
-/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
+/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh \
   ou_0765c32b5ec622535c5ccc284982cfe5 \
   /root/.openclaw/agents/wife/workspace/Research_Roadmap_V2.svg
 
 # 发送 PDF 报告
-/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
+/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh \
   ou_0765c32b5ec622535c5ccc284982cfe5 \
   /tmp/monthly_report.pdf
 ```

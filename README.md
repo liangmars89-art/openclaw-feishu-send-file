@@ -28,7 +28,7 @@ English | [简体中文](./README.zh-CN.md)
 
 ```bash
 # Clone or copy to OpenClaw skills directory
-cp -r feishu-send-file /root/.openclaw/workspace/skills/
+cp -r feishu-direct-file /root/.openclaw/workspace/skills/
 ```
 
 ### Configuration
@@ -57,7 +57,7 @@ The agent will automatically recognize and invoke this skill.
 #### Method 2: Command Line
 
 ```bash
-/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
+/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh \
   ou_your_open_id \
   /path/to/your/file.pdf
 ```
@@ -112,7 +112,7 @@ send-file-wrapper.sh ou_xxx /tmp/report.pdf
 # .github/workflows/build.yml
 - name: Send build artifact to Feishu
   run: |
-    /root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh \
+    /root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh \
       ${{ secrets.FEISHU_RECEIVER_ID }} \
       ./build/app.apk
 ```
@@ -128,7 +128,7 @@ plt.savefig('/tmp/chart.png')
 
 # Send to Feishu
 subprocess.run([
-    '/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh',
+    '/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh',
     'ou_xxx',
     '/tmp/chart.png'
 ])
@@ -230,7 +230,7 @@ Issues and Pull Requests are welcome!
 ## 📮 Contact
 
 - **Author**: 奔波霸 & Henry (OpenClaw Agent)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/openclaw-feishu-send-file/issues)
+- **Issues**: [GitHub Issues](https://github.com/yourusername/openclaw-feishu-direct-file/issues)
 - **Community**: [OpenClaw Discord](https://discord.com/invite/clawd)
 
 ---

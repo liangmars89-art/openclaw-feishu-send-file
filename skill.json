@@ -1,5 +1,5 @@
 {
-  "name": "feishu-send-file",
+  "name": "feishu-direct-file",
   "version": "1.0.0",
   "description": "直接发送本地文件到飞书对话,绕过云盘限制",
   "author": "Henry",
@@ -16,7 +16,7 @@
     ]
   },
   "usage": {
-    "command": "/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh",
+    "command": "/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh",
     "args": [
       "<receiver_open_id>",
       "<file_path>"
@@ -24,11 +24,11 @@
     "examples": [
       {
         "description": "发送文件给奔波霸",
-        "command": "/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh ou_0765c32b5ec622535c5ccc284982cfe5 /path/to/file.pdf"
+        "command": "/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh ou_0765c32b5ec622535c5ccc284982cfe5 /path/to/file.pdf"
       },
       {
         "description": "发送 SVG 图表",
-        "command": "/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh ou_0765c32b5ec622535c5ccc284982cfe5 /path/to/chart.svg"
+        "command": "/root/.openclaw/workspace/skills/feishu-direct-file/send-file-wrapper.sh ou_0765c32b5ec622535c5ccc284982cfe5 /path/to/chart.svg"
       }
     ]
   },

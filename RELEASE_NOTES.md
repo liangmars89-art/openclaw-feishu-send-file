@@ -168,7 +168,7 @@ Stay tuned for updates!
 
 If this tool helped you, please give it a ⭐️!
 
-[GitHub](https://github.com/yourusername/openclaw-feishu-send-file) | 
+[GitHub](https://github.com/yourusername/openclaw-feishu-direct-file) | 
 [ClawHub](https://clawhub.com) | 
 [Documentation](./README.md)
 

@@ -1,11 +1,10 @@
 {
-  "name": "Feishu Send File",
-  "slug": "feishu-send-file",
+  "name": "Feishu Direct File",
+  "slug": "feishu-direct-file",
   "version": "1.0.0",
   "description": "Direct file transfer to Feishu for OpenClaw - bypass cloud drive limitations",
   "author": "liangmars89-art",
   "license": "MIT",
   "tags": ["feishu", "file-transfer", "automation", "productivity", "messaging"],
-  "repository": "https://github.com/YOUR_USERNAME/openclaw-feishu-send-file",
-  "acceptLicenseTerms": true
+  "repository": "https://github.com/YOUR_USERNAME/openclaw-feishu-direct-file",
 }
