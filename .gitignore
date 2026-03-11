@@ -1,0 +1,25 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Credentials (安全起见,不提交配置文件)
+openclaw.json*
+config.yml
+*.secret
+
+# Test files
+test_*.txt
+demo_output/

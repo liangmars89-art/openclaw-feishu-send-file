@@ -1,0 +1,10 @@
+{
+  "name": "feishu-send-file",
+  "version": "1.0.0",
+  "description": "直接发送文件到飞书对话",
+  "main": "send-file.js",
+  "dependencies": {
+    "form-data": "^4.0.0",
+    "js-yaml": "^4.1.0"
+  }
+}

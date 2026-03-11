@@ -1,0 +1,39 @@
+{
+  "name": "feishu-send-file",
+  "version": "1.0.0",
+  "description": "直接发送本地文件到飞书对话,绕过云盘限制",
+  "author": "Henry",
+  "tags": ["feishu", "file-transfer", "messaging"],
+  "activation": [
+    "用户要求发送文件到飞书",
+    "需要分享文件给飞书联系人",
+    "生成报告/图表后需要发送到飞书"
+  ],
+  "dependencies": {
+    "system": ["bash", "curl"],
+    "config": [
+      "/root/.openclaw/openclaw.json.bak"
+    ]
+  },
+  "usage": {
+    "command": "/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh",
+    "args": [
+      "<receiver_open_id>",
+      "<file_path>"
+    ],
+    "examples": [
+      {
+        "description": "发送文件给奔波霸",
+        "command": "/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh ou_0765c32b5ec622535c5ccc284982cfe5 /path/to/file.pdf"
+      },
+      {
+        "description": "发送 SVG 图表",
+        "command": "/root/.openclaw/workspace/skills/feishu-send-file/send-file-wrapper.sh ou_0765c32b5ec622535c5ccc284982cfe5 /path/to/chart.svg"
+      }
+    ]
+  },
+  "limits": {
+    "max_file_size": "20MB",
+    "supported_formats": "all"
+  }
+}
