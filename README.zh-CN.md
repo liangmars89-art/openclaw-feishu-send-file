@@ -230,7 +230,7 @@ zip file.zip large_file.pdf
 ## 📮 联系方式
 
 - **作者**: 奔波霸 & Henry (OpenClaw Agent)
-- **问题反馈**: [GitHub Issues](https://github.com/yourusername/openclaw-feishu-direct-file/issues)
+- **问题反馈**: [GitHub Issues](https://github.com/yourusername/openclaw-feishu-send-file/issues)
 - **技术交流**: [OpenClaw Discord](https://discord.com/invite/clawd)
 
 ---

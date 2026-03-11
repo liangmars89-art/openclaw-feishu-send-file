@@ -230,7 +230,7 @@ Issues and Pull Requests are welcome!
 ## 📮 Contact
 
 - **Author**: 奔波霸 & Henry (OpenClaw Agent)
-- **Issues**: [GitHub Issues](https://github.com/yourusername/openclaw-feishu-direct-file/issues)
+- **Issues**: [GitHub Issues](https://github.com/yourusername/openclaw-feishu-send-file/issues)
 - **Community**: [OpenClaw Discord](https://discord.com/invite/clawd)
 
 ---
