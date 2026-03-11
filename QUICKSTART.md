@@ -9,7 +9,7 @@
 clawhub install feishu-send-file
 
 # Option B: Clone from GitHub
-git clone https://github.com/YOUR_USERNAME/openclaw-feishu-send-file.git \
+git clone https://github.com/liangmars89-art/openclaw-feishu-send-file.git \
   /root/.openclaw/workspace/skills/feishu-send-file
 ```
 
@@ -115,7 +115,7 @@ chmod +x /root/.openclaw/workspace/skills/feishu-send-file/*.sh
 
 - 📖 [Full Documentation](./README.md)
 - 💬 [OpenClaw Discord](https://discord.com/invite/clawd)
-- 🐛 [Report Issue](https://github.com/YOUR_USERNAME/openclaw-feishu-send-file/issues)
+- 🐛 [Report Issue](https://github.com/liangmars89-art/openclaw-feishu-send-file/issues)
 
 ---
 
